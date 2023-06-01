@@ -1,60 +1,61 @@
 import {
-  FaceSmileIcon,
-  ChartBarSquareIcon,
-  CursorArrowRaysIcon,
+  BuildingStorefrontIcon,
+  BanknotesIcon,
+  HandThumbUpIcon,
   DevicePhoneMobileIcon,
   AdjustmentsHorizontalIcon,
-  SunIcon,
+  CurrencyDollarIcon,
+  PhoneIcon,
 } from "@heroicons/react/24/solid";
 
 import benefitOneImg from "../public/img/benefit-one.png";
 import benefitTwoImg from "../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "¿Cómo funciona y cuánto cuesta?",
+  desc: "Los clientes eligen tus productos desde nuestra plataforma, les asignamos un mandadero y este te llama por teléfono para validar la disponibilidad de los productos elegidos por el cliente, si confirmas los productos el mandadero se dirige a tu negocio y te paga en EFECTIVO los productos para así llevarlos al cliente.",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
-      icon: <FaceSmileIcon />,
+      title:
+        "Sin necesidad de apps, tablets, ni estar al pendiente de los pedidos",
+      desc: "Lo unico que necesitamos es que contestes el teléfono cuando un mandadero te llame para verificar la existencia de tus productos.",
+      icon: <PhoneIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
-      icon: <ChartBarSquareIcon />,
+      title: "Comisión fija del 7% por cada pedido",
+      desc: "Al manejarse todo en efectivo, no pagas impuestos, ni IVA, ni excesivas comisiones del 25% o 30% por lo que vendas desde internet. Tampoco requerimos de un pago inicial.",
+      icon: <BanknotesIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
-      icon: <CursorArrowRaysIcon />,
+      title: "Todos los negocios son bienvenidos",
+      desc: "Negocios de comida, tiendas de abarrotes, carnicerías, verdulerías, pollerías, cremerías, etc. No importa el giro o tamaño de tu negocio. Todos pueden vender por internet.",
+      icon: <BuildingStorefrontIcon />,
     },
   ],
 };
 
 const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  title: "Aumenta tus ventas vendiendo online",
+  desc: "Vivimos en una era en donde todo se mueve por internet, es por eso que creamos este movimiento para que pequeños negocios como el tuyo tengan la oportunidad de llegar a nuevos clientes y aumentar sus ganancias.",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
+      title: "Lo hacemos fácil para ti",
+      desc: "El mandadero se encarga de ir directamente a comprarte los productos del cliente. Por lo que tu no tienes que estar conectado a apps ni cambiar tu forma de trabajo.",
+      icon: <HandThumbUpIcon />,
+    },
+    {
+      title: "Con pagos en efectivo todos ganamos",
+      desc: "Cuando vendes por internet en otras plataformas tienes que pagar impuestos de lo que vendes, con nosotros no es así, al mantener el flujo en efectivo todos ganamos.",
+      icon: <CurrencyDollarIcon />,
+    },
+    {
+      title: "Agregamos tu negocio a nuestra plataforma en minutos",
+      desc: "Nuestros asesores se encargarán de subir la información de tu negocio en nuestra plataforma.",
       icon: <DevicePhoneMobileIcon />,
-    },
-    {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
-      icon: <AdjustmentsHorizontalIcon />,
-    },
-    {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
-      icon: <SunIcon />,
     },
   ],
 };
 
-
-export {benefitOne, benefitTwo};
+export { benefitOne, benefitTwo };

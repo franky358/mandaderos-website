@@ -31,26 +31,34 @@ const Faq = () => {
       </div>
     </Container>
   );
-}
+};
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
-  },
-  {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
-  },
-  {
-    question: "What is your refund policy? ",
+    question: "¿Cómo funciona exactamente el 7% de comisión por pedido?",
     answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+      "El mandadero te pagará en efectivo el 93% del total del pedido, es decir, si el total del pedido del cliente fue de $100 pesos, el mandadero te entrega $93 pesos.",
   },
   {
-    question: "Do you offer technical support? ",
+    question: "¿Es necesario contar con un teléfono?",
     answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "Sí, antes de que el mandadero vaya a tu negocio a comprar los productos del pedido, tiene que verificar contigo la existencia de los mismos.",
+  },
+  {
+    question:
+      "¿Tengo que pagar algo para comenzar a vender desde su plataforma?",
+    answer:
+      "No, no se requiere de ningún pago para comenzar a vender con nosotros.",
+  },
+  {
+    question: "¿Cómo doy de alta mi negocio en su plataforma? ",
+    answer:
+      "Mandanos un whats desde los botónes de contacto de esta página y con gusto te ayudaremos en el proceso.",
+  },
+  {
+    question: "¿Tengo que estar conectado desde un app para aceptar pedidos? ",
+    answer:
+      "No, seguiras atendiendo tu negocio tal y como lo haces hasta ahora, lo unico que requerimos es contestes las llamadas de los mandaderos.",
   },
 ];
 
